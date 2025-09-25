@@ -1,17 +1,21 @@
 # utl-how-to-create-a-sas-dataset-from-python-panda-dataframe-using-the-personal-altair-slc
-Create a sas dataset from python oanda dataframe using the personal altair slc
+Create a SAS dataset from Python panda dataframe using the personal Altair SLC
     %let pgm=utl-how-to-create-a-sas-dataset-from-python-panda-dataframe-using-the-personal-altair-slc;
 
     %stop_submission;
 
-    Create a sas dataset from python oanda dataframe using the personal altair slc
+    Create a sas dataset from python panda dataframe using the personal altair slc
+    
+    github
+    https://tinyurl.com/5n7jw3hh
+    https://github.com/rogerjdeangelis/utl-how-to-create-a-sas-dataset-from-python-panda-dataframe-using-the-personal-altair-slc
 
     SOAPBOX ON
 
-    I am new to the ALtait SLC
+    I am new to the ALtair SLC
 
-    Altair SLC, proc python, does NOT supprt export/import os sas datasets.
-    Altair proc R does supprt export/import os sas datasets.
+    Altair SLC, proc python, does NOT support export/import os sas datasets.
+    Altair proc R does support export/import os sas datasets.
     However, python can export panda dataframes to R, using the rds format and
     proc R can convert RDS files to sas datasets.
 
