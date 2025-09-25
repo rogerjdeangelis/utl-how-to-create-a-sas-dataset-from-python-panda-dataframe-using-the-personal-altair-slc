@@ -4,6 +4,10 @@
 
 Create a sas dataset from python oanda dataframe using the personal altair slc
 
+github
+https://tinyurl.com/5n7jw3hh
+https://github.com/rogerjdeangelis/utl-how-to-create-a-sas-dataset-from-python-panda-dataframe-using-the-personal-altair-slc
+
 SOAPBOX ON
 
 I am new to the ALtait SLC
