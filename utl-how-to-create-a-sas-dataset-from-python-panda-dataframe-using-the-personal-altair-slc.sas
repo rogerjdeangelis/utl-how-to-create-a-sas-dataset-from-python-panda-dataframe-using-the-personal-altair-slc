@@ -8,6 +8,20 @@ github
 https://tinyurl.com/5n7jw3hh
 https://github.com/rogerjdeangelis/utl-how-to-create-a-sas-dataset-from-python-panda-dataframe-using-the-personal-altair-slc
 
+How to fix the export/import problem (untested)
+
+SLC Python export/import fails with newer versions
+Python 3.13.0
+NumPy version: 2.1.3
+Pandas version: 2.2.3
+
+Need to down grade (not tested)
+I have too many packages using the newer version
+
+Your python installation is not supported by SLC 2025:
+"SLC 2025 requires python ?3.12.9, numpy ?1.26.4 and pandas ?2.2.2"
+I'd recommend downgrading python, numpy and panda
+
 SOAPBOX ON
 
 I am new to the ALtait SLC
