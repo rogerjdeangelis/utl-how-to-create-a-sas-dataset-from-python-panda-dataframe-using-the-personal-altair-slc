@@ -19,6 +19,18 @@ Create a SAS dataset from Python panda dataframe using the personal Altair SLC
     However, python can export panda dataframes to R, using the rds format and
     proc R can convert RDS files to sas datasets.
 
+    SLC Python export/import fails with newer versions
+    Python 3.13.0
+    NumPy version: 2.1.3
+    Pandas version: 2.2.3
+
+    Need to downgrade (not tested)
+    I have too many packages using the newer version
+
+    Your python installation is not supported by SLC 2025:
+    "SLC 2025 requires python ?3.12.9, numpy ?1.26.4 and pandas ?2.2.2"
+    I'd recommend downgrading python, numpy and pandas.
+
     Too long to post here, see github
 
        CONTENTS
